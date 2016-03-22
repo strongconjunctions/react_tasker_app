@@ -1,5 +1,5 @@
-# 2nd_react_router_app
-A simple React app with routing capabilities.
+# React Tasker App
+A simple React ToDo App
 
 To start the app do the following:
 1. cd into root
