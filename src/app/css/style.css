@@ -50,16 +50,23 @@ p {
 }
 
 .buttons:active {
-	color: #FF7171;
-	border: 1px solid #FF7171;
+	color: #555555;
+	border: 1px solid #555555;
+	background-color: #fff;
 }
 
 #task {
 	border: 1px solid #555555;
 	height: 30px;
 	width: 200px;
+	font-family: 'Raleway';
+	transition: .2s ease-in-out;
 	background-color: #F9F6F6;
 	padding: 0 5px;
+}
+
+#task:focus {
+	background-color: #fff;
 }
 
 
