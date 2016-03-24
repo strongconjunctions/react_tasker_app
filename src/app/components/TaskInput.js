@@ -9,15 +9,18 @@ export default class TaskInput extends React.Component {
         }
     }
 
+/*    changeState(e) {
+        this.setState({this.state.defaultTask = target.value});
+    }*/
 
     render() {
 
         return (
             <div>
-                <h3 className="label">New Task: </h3><input type="text" id="task" value={this.state.defaultTask} />
+                <h3 className="labels">New Task: </h3><input type="text" id="task" />
 
-                <input class="buttons" type="button" onclick="deleteAllTasks()" value="-" />
-                <input class="buttons" type="submit" onclick="addTask()" value="+" />
+                <button class="buttons"><span class="fa fa-remove"></span></button>
+                <button class="buttons"><span class="fa fa-plus"></span></button>
             </div>
         )
     }

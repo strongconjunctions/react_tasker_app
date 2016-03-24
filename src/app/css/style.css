@@ -16,7 +16,7 @@ h1, h2 {
 	font-weight: 600;
 }
 
-.label {
+.labels {
 	margin-top: 40px;
 }
 
@@ -32,6 +32,10 @@ p {
 	max-width: 100%;
 	text-align: center;
 	margin: 10px auto;
+}
+
+button {
+	padding: 0;
 }
 
 .buttons {
@@ -54,6 +58,7 @@ p {
 	border: 1px solid #555555;
 	background-color: #fff;
 }
+
 
 #task {
 	border: 1px solid #555555;
@@ -93,3 +98,4 @@ textarea:focus,
 button:focus {
     outline: none;
 }
+

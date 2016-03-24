@@ -3,12 +3,16 @@ import TaskItem from './TaskItem';
 
 export default class TaskList extends React.Component {
     render() {
+
+        let taskNode = this.props.tasks.map((task) =>
+            <TaskItem task={task} key={task.id} />
+        )
+
         return (
             <div>
-                <h3 className="label">Task List:</h3>
+                <h3 className="labels">Task List:</h3>
                 <ul className="taskList">
-                  <TaskItem />
-                  <TaskItem />
+                  {taskNode}
                 </ul>
               </div>
         )
