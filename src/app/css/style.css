@@ -54,9 +54,9 @@ button {
 }
 
 .buttons:active {
-	color: #555555;
-	border: 1px solid #555555;
-	background-color: #fff;
+	color: #fff;
+	border: 1px solid #fff;
+	background-color: #555555;
 }
 
 
@@ -90,6 +90,19 @@ li {
 	list-style: none;
 	margin: 0 auto 10px;
 }
+
+li .task-item {
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+	-webkit-animation-delay: .25s;
+	-moz-animation-delay: .25s;
+	-ms-animation-delay: .25s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+}
+
 
 /* This will disable the blue glowing border around elements */
 input:focus,
