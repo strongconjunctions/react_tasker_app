@@ -26,12 +26,15 @@ p {
 }
 
 #title {
-	border-bottom: 1px solid #555555;
 	padding: 10px;
 	font-size: 3em;
 	max-width: 100%;
 	text-align: center;
 	margin: 10px auto;
+}
+
+hr {
+	color: #555555;
 }
 
 button {

@@ -5,7 +5,7 @@ export default class TaskItem extends React.Component {
 
         return (
             <li className="task-item animated flipInY">
-                {this.props.task.description}
+                {this.props.task.task}
             </li>
         )
     }
