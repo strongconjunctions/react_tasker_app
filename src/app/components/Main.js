@@ -5,17 +5,17 @@ import TaskerBody from './TaskerBody';
 var tasks = [
     {
         task: "clean the floor",
-        id: 1,
+        key: 1,
         completed: false
     },
     {
         task: "buy some food",
-        id: 2,
+        key: 2,
         completed: false
     },
     {
         task: "study for your exams",
-        id: 3,
+        key: 3,
         completed: false
     }
 ];
@@ -36,9 +36,9 @@ export default class Main extends React.Component {
             task,
             completed: false
         });
-        this.setState({ tasks: this.state.task });
+        // this will re-render the page 
+        this.setState({ tasks: this.state.tasks });
     }
-
 
 
 
@@ -52,3 +52,14 @@ export default class Main extends React.Component {
         )
     }
 }
+
+
+
+
+// jQuery Animation
+$(function() {
+    $('.fa-minus').on('click', function() {
+        $('.task-item').removeClass('flipInY fadeInDown');
+        $('.task-item').toggleClass('fadeOutUp');
+    });
+});

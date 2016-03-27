@@ -1,19 +1,6 @@
 import React from 'react';
 
 
-// jQuery Animation
-$(function() {
-    $('.fa-plus').on('click', function() {
-        $('.task-item').removeClass('flipInY fadeOutUp');
-        $('.task-item').toggleClass('fadeInDown');
-    });
-    $('.fa-remove').on('click', function() {
-        $('.task-item').removeClass('flipInY fadeInDown');
-        $('.task-item').toggleClass('fadeOutUp');
-    });
-});
-
-
 export default class TaskInput extends React.Component {
     
     constructor(props) {
@@ -32,6 +19,7 @@ export default class TaskInput extends React.Component {
         this.props.addNewTask(this.refs.createTask.value);
 
         this.refs.createTask.value = '';
+            
     }
 
     render() {
@@ -48,3 +36,9 @@ export default class TaskInput extends React.Component {
         )
     }
 }
+/*
+
+        event.preventDefault(); 
+        
+        this.props.createTask(this.refs.createTask.value);
+*/
