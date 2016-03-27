@@ -49,11 +49,16 @@ button {
 	font-weight: 100;
 	width: 40px;
 	height: 40px;
-	transition: .1s ease-in-out;
+	transition: .2s ease-in-out;
 	margin-left: 30px;
 	float: right;
 	border: 1px solid #555555;
 	background-color: #F9F6F6;
+}
+
+.buttons:hover {
+	cursor: pointer;
+	color: tomato;
 }
 
 .buttons:active {
@@ -71,11 +76,9 @@ button {
 }
 
 .task-btns:active {
-	color: tomato;
 	border: 0;
-	background-color: white;
+	background-color: #F9F6F6;
 }
-
 
 #task {
 	border: 1px solid #555555;

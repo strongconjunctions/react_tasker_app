@@ -47,7 +47,7 @@ export default class Main extends React.Component {
             <div>
                 <h1 id="title" className="animated wobble">Tasker</h1>
                 <hr />
-                <TaskerBody tasks={this.state.tasks} addNewTask={this.addNewTask.bind(this)}/>
+                <TaskerBody tasks={this.state.tasks} addNewTask={this.addNewTask.bind(this)} />
             </div>
         )
     }

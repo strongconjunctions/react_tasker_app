@@ -36,9 +36,3 @@ export default class TaskInput extends React.Component {
         )
     }
 }
-/*
-
-        event.preventDefault(); 
-        
-        this.props.createTask(this.refs.createTask.value);
-*/

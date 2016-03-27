@@ -10,7 +10,7 @@ export default class TaskItem extends React.Component {
             <li className="task-item animated flipInY">
                 {this.props.task.task}
 
-                <button className="buttons task-btns" ><span class="fa fa-minus"></span></button>
+                <button className="buttons task-btns"><span class="fa fa-minus"></span></button>
             </li>
         )
     }
