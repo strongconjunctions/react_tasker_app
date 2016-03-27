@@ -42,7 +42,6 @@ export default class TaskInput extends React.Component {
                     <h3 className="labels">New Task: </h3>
                     <input type="text" placeholder="Let's add some tasks" id="task" ref="createTask" />
 
-                    <button class="buttons"><span class="fa fa-remove"></span></button>
                     <button class="buttons"><span class="fa fa-plus"></span></button>
                 </form>
             </div>
